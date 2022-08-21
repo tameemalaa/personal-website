@@ -5,65 +5,73 @@
     <meta description="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <title>Personal Website</title>
 </head>
 <body>
-    <main>
+    <main class= 'main-container'>
         <header class="header"> 
-            <div class="logo"> <img alt="logo" src=""> </div>
+            <div class="header-container">
+            <div class="logo"> <img alt="logo" src="media/logo.svg"> </div>
             <nav class="nav"> 
-                <ul class="nav nav-tabs">
+                <ul class="nav-tabs">
                     <li class="active"><a href="#home">Home</a></li>
                     <li class="active"><a href="#technologies">Technologies</a></li>
                     <li class="active"><a href="#education">Education</a></li>
                     <li class="active"><a href="#experience">Experience</a></li>
                 </ul>
             </nav>
+        </div>
         </header>
         <aside class="aside">
-            <div class="accounts">  
-            <a href="" target="_blank"><img alt="" src="images/"></a>
-            <a href="" target="_blank"><img alt="" src="images/"></a>
-            <a href="" target="_blank"><img alt="" src="images/"></a>
-            <a href="" target="_blank"><img alt="" src="images/"></a>
-            </div>
+            <a href="https://www.facebook.com/tameemalaa/" target="_blank"><img class='aside-icon' alt="facebook-icon" src="media/facebook-icon.svg"></a>
+            <a href="https://twitter.com/Tameem_Alaa" target="_blank"><img class='aside-icon' alt="twitter-icon" src="media/twitter-icon.svg"></a>
+            <a href="https://www.linkedin.com/in/tameemalaa/" target="_blank"><img class='aside-icon' alt="linkedin-icon" src="media/linkedin-icon.svg"></a>
+            <a href="https://github.com/tameemalaa" target="_blank"><img class='aside-icon' alt="github-icon" src="media/github-icon.svg"></a>
         </aside>
+        <div class="content-container">
         <section class="home" id="home">
-            <h2>Welcome to my website !</h2>
-            <h3> Who am I? </h3>
+        <div class="landing">
+            <div class = 'landing-left'>
+            <h1> Tameem Bakr <br> <span> Computer Engineering Student</span> </h1>
+            <p>Egypt – Assiut – Assiut City <br> +20 10 9253 4082 <br> tameem.alaa@gmail.com</p>
+        </div>
+            <img alt="" src="https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?w=1060&t=st=1660949108~exp=1660949708~hmac=521596a60420660da3226c5733df4f236a95b637ac2d35195749b5466107a860">
+        </div>
+        <div class="who-am-i">
+            <h3 class="heading"> Who am I? </h3>
             <P> 
                 I'm <span>Tameem Bakr</span>, a computer engineering student with wide knowledge in the different fields of technology like cybersecurity, 
                 IT, AI, and software engineering, pursuing an internship to acquire more skills, knowledge, and experience as 
                 well as meet the requirements of today's technological market needs.
             </P>
+        </div>
         </section> 
         <section class="technologies" id ="technologies"> 
-            <div><h2>Technologies</h2></div> 
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
-            <div class="container" > <img alt="" src="images/"> <h4> </h4> </div>
+            <h2 class = 'heading'>Technologies</h2>
+            <div class="technologies-container">
+            <div class="container" > <img class='tech-icon' alt="python-icon" src="media/python-icon.svg"> <h4>Python</h4> </div>
+            <div class="container" ><img class='tech-icon' alt="html-icon" src="media/html-icon.svg"> <h4>HTML5</h4> </div>
+            <div class="container" > <img class='tech-icon' alt="css-icon" src="media/css-icon.svg"> <h4>CSS3</h4> </div>
+            <div class="container" > <img class='tech-icon' alt="js-icon" src="media/js-icon.svg"> <h4>JavaScript</h4> </div>
+            <div class="container" > <img class='tech-icon' alt="git-icon" src="media/git-icon.svg"> <h4>Version Control</h4> </div>
+            <div class="container" > <img class='tech-icon' alt="matlab-icon" src="media/matlab-icon.svg"> <h4>Matlab</h4> </div>
+        </div>
         </section>
         <section class="education" id="education">
-            <div><h2>Education</h2></div>
-            <div>
+            <h2 class="heading">Education</h2>
+            <div class="text" >
                 <h4>Bachelor of Computer Engineering (BE), Egypt Japan University for Science and Technology (E-JUST), (2018 –
                     2024) CGPA:3.55</h4>
                 <h4> Assiut STEM School, High School (2015 - 2018).</h4>
             </div>
         </section>
         <section class="experience"id ="experience">
-            <div><h2>Experience</h2></div>
-            <div>
+            <h2 class="heading">Experience</h2>
+            <div class="text">
                 <h4>Research Intern, Egypt- Japan University of Science and Technology(E-JUST) (2021- Present)</h4>
                 <p>I participate in researching the different medical applications for machine learning, computer vision and 
                     optimizing machine learning for embedded system.</p>
@@ -73,7 +81,7 @@
                     <li>Python, MATLAB, Arduino, RaspberryPi</li> 
                 </ul>
             </div>
-            <div>
+            <div class="text">
                 <h4>Research Intern, Collaborative Project (EJUST – EME Innovation Hub Industry Sector) (2022- Present)</h4>
                 <p>Our job is to construct a salt purification system that utilizes computer vision to solve the industrial 
                     challenges to improve the quality of the Egyptian produced salt.</p>
@@ -82,14 +90,15 @@
                 </ul>
             </div>
         </section>
+    </div>
             <footer class="footer"> 
-            <div class="copyright"> Copyright &copy;2022 All rights reserved | by Tameem Bakr</div>
             <div class="social-media">             
-                <a href="" target="_blank"><img  src="images/"></a>
-                <a href="" target="_blank"><img src="images/"></a>
-                <a href="" target="_blank"><img src="images/"></a>
-                <a href="" target="_blank"><img src="images/"></a>
+                <a href="https://www.facebook.com/tameemalaa/" target="_blank"><img class='footer-icon' alt="facebook-icon" src="media/facebook-icon.svg"></a>
+                <a href="https://twitter.com/Tameem_Alaa" target="_blank"><img class='footer-icon' alt="twitter-icon" src="media/twitter-icon.svg"></a>
+                <a href="https://www.linkedin.com/in/tameemalaa/" target="_blank"><img class='footer-icon' alt="linkedin-icon" src="media/linkedin-icon.svg"></a>
+                <a href="https://github.com/tameemalaa" target="_blank"><img class='footer-icon' alt="github-icon" src="media/github-icon.svg"></a>
             </div>
+            <div class="copyright"> Copyright &copy;2022 All rights reserved | by Tameem Bakr</div>
         </footer>
     </main>
 </body>
